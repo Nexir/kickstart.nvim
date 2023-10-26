@@ -155,6 +155,7 @@ require('lazy').setup({
   {
     -- Theme inspired by Atom
     'navarasu/onedark.nvim',
+    enabled = false,
     priority = 1000,
     config = function()
       vim.cmd.colorscheme 'onedark'
@@ -168,7 +169,7 @@ require('lazy').setup({
     opts = {
       options = {
         icons_enabled = true,
-        theme = 'onedark',
+        theme = 'catppuccin',
         component_separators = '|',
         section_separators = '',
       },
